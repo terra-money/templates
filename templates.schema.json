@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "templates": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/template"
+      }
+    },
+    "serise": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/serise"
+      }
+    }
+  },
+  "required": [
+    "templates"
+  ],
+  "definitions": {
+    "id": {
+      "type": "string",
+      "pattern": "^([a-z0-9-:]+)$"
+    },
+    "template": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/definitions/id"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 7,
+          "maxLength": 50
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "github": {
+          "type": "string",
+          "pattern": "^https://github.com/(.*$)"
+        },
+        "categories": {
+          "type":"array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "smart_contract",
+              "web_app"
+            ]
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minItems": 1
+          }
+        },
+        "forks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^https://github.com/(.*$)",
+            "minItems": 1
+          }
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "images",
+        "github",
+        "categories"
+      ]
+    },
+    "serise": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 7,
+          "maxLength": 50
+        },
+        "templates": {
+          "type": "array",
+          "description": "List of templates[].id",
+          "items": {
+            "$ref": "#/definitions/id"
+          }
+        }
+      }
+    }
+  }
+}
