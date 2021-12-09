@@ -20,7 +20,9 @@
       "id": "wallet-provider:create-react-app",
       "title": "Wallet-Provider Create-React-App template",
       "images": [
-        "wallet-provider/image.svg"
+        "wallet-provider/image1.svg",
+        "wallet-provider/image2.svg",
+        "wallet-provider/image3.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/create-react-app",
       "categories": [
@@ -34,7 +36,9 @@
       "id": "wallet-provider:next",
       "title": "Wallet-Provider Next.js template",
       "images": [
-        "wallet-provider/image.svg"
+        "wallet-provider/image1.svg",
+        "wallet-provider/image2.svg",
+        "wallet-provider/image3.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/next",
       "categories": [
@@ -49,7 +53,9 @@
       "id": "wallet-provider:vite",
       "title": "Wallet-Provider Vite.js template",
       "images": [
-        "wallet-provider/image.svg"
+        "wallet-provider/image1.svg",
+        "wallet-provider/image2.svg",
+        "wallet-provider/image3.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vite",
       "categories": [
@@ -64,7 +70,8 @@
       "id": "wallet-provider:wallet-controller",
       "title": "Wallet-Controller template",
       "images": [
-        "wallet-provider/image.svg"
+        "wallet-provider/image1.svg",
+        "wallet-provider/image2.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/wallet-controller",
       "categories": [
