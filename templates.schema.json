@@ -10,17 +10,20 @@
     },
     "serise": {
       "type": "array",
+      "description": "You can create series by grouping multiple templates. It can be used to unite continuous contents.",
       "items": {
         "$ref": "#/definitions/serise"
       }
     }
   },
   "required": [
-    "templates"
+    "templates",
+    "serise"
   ],
   "definitions": {
     "id": {
       "type": "string",
+      "description": "Special characters only allow `-` and `:`. Please use the same format as `group-name:content-name`.",
       "pattern": "^([a-z0-9-:]+)$"
     },
     "template": {
@@ -37,7 +40,9 @@
         "images": {
           "type": "array",
           "items": {
-            "type": "string"
+            "type": "string",
+            "pattern": "(.*).(png|jpg|jpeg|webp|avif|svg)$",
+            "description": "Please write the image url based on the images directory of this `terra-money/templates` repository. For example, add a file `images/template-id/image.png`, and enter `images: [template-id/image.png]`."
           }
         },
         "github": {
@@ -81,6 +86,9 @@
     "serise": {
       "type": "object",
       "properties": {
+        "id": {
+          "$ref": "#/definitions/id"
+        },
         "title": {
           "type": "string",
           "minLength": 7,
@@ -93,7 +101,12 @@
             "$ref": "#/definitions/id"
           }
         }
-      }
+      },
+      "required": [
+        "id",
+        "title",
+        "templates"
+      ]
     }
   }
 }
