@@ -5,7 +5,7 @@
       "id": "smart-contract:basic",
       "title": "Smart contract basic",
       "images": [
-        "image.png"
+        "smart-contract/image.svg"
       ],
       "github": "https://github.com/iamssen/terra-smart-contract-basic",
       "categories": [
@@ -20,7 +20,7 @@
       "id": "wallet-provider:create-react-app",
       "title": "Wallet-Provider Create-React-App template",
       "images": [
-        "image.png"
+        "wallet-provider/image.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/create-react-app",
       "categories": [
@@ -34,7 +34,7 @@
       "id": "wallet-provider:next",
       "title": "Wallet-Provider Next.js template",
       "images": [
-        "image.png"
+        "wallet-provider/image.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/next",
       "categories": [
@@ -49,7 +49,7 @@
       "id": "wallet-provider:vite",
       "title": "Wallet-Provider Vite.js template",
       "images": [
-        "image.png"
+        "wallet-provider/image.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vite",
       "categories": [
@@ -64,7 +64,7 @@
       "id": "wallet-provider:wallet-controller",
       "title": "Wallet-Controller template",
       "images": [
-        "image.png"
+        "wallet-provider/image.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/wallet-controller",
       "categories": [
