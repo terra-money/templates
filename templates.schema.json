@@ -39,6 +39,7 @@
         },
         "images": {
           "type": "array",
+          "description": "Please register the image at 16/9. These are 640px/320px, 1280px/720px, 1920px/1080px.",
           "items": {
             "type": "string",
             "pattern": "(.*).(png|jpg|jpeg|webp|avif|svg)$",
