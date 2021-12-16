@@ -67,13 +67,13 @@
       ]
     },
     {
-      "id": "wallet-provider:wallet-controller",
-      "title": "Wallet-Controller template",
+      "id": "wallet-provider:lit",
+      "title": "Wallet-Controller Lit template",
       "images": [
         "wallet-provider/image1.svg",
         "wallet-provider/image2.svg"
       ],
-      "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/wallet-controller",
+      "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/lit",
       "categories": [
         "web_app"
       ],
@@ -90,7 +90,7 @@
         "wallet-provider:create-react-app",
         "wallet-provider:next",
         "wallet-provider:vite",
-        "wallet-provider:wallet-controller"
+        "wallet-provider:lit"
       ]
     }
   ]
