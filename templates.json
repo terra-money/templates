@@ -80,6 +80,21 @@
       "tags": [
         "lit-html"
       ]
+    },
+    {
+      "id": "wallet-provider:vue",
+      "title": "Wallet-Controller Vue template",
+      "images": [
+        "wallet-provider/image1.svg",
+        "wallet-provider/image2.svg"
+      ],
+      "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vue",
+      "categories": [
+        "web_app"
+      ],
+      "tags": [
+        "vue.js"
+      ]
     }
   ],
   "serise": [
@@ -90,7 +105,8 @@
         "wallet-provider:create-react-app",
         "wallet-provider:next",
         "wallet-provider:vite",
-        "wallet-provider:lit"
+        "wallet-provider:lit",
+        "wallet-provider:vue"
       ]
     }
   ]
