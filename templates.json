@@ -78,7 +78,8 @@
         "web_app"
       ],
       "tags": [
-        "lit-html"
+        "lit-html",
+        "vite.js"
       ]
     },
     {
@@ -93,7 +94,24 @@
         "web_app"
       ],
       "tags": [
-        "vue.js"
+        "vue.js",
+        "vite.js"
+      ]
+    },
+    {
+      "id": "wallet-provider:svelte",
+      "title": "Wallet-Controller Svelte template",
+      "images": [
+        "wallet-provider/image1.svg",
+        "wallet-provider/image2.svg"
+      ],
+      "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/svelte",
+      "categories": [
+        "web_app"
+      ],
+      "tags": [
+        "svelte",
+        "vite.js"
       ]
     }
   ],
@@ -106,7 +124,8 @@
         "wallet-provider:next",
         "wallet-provider:vite",
         "wallet-provider:lit",
-        "wallet-provider:vue"
+        "wallet-provider:vue",
+        "wallet-provider:svelte"
       ]
     }
   ]
