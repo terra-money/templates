@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="640px" height="360px" viewBox="0 0 640 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>wallet-provider-vue</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-34.000000, -1232.000000)">
+            <g id="wallet-provider-vue" transform="translate(34.000000, 1232.000000)">
+                <rect id="Rectangle-Copy-3" fill="#B5DDEF" x="0" y="0" width="640" height="360"></rect>
+                <polygon id="Path" fill="#41B883" fill-rule="nonzero" points="526.784095 111 505.999312 147.026415 485.215217 111 416 111 506 267 596 111"></polygon>
+                <polygon id="Path" fill="#34495E" fill-rule="nonzero" points="526.784148 110 505.999312 146.181119 485.215164 110 452 110 506 204 560 110"></polygon>
+                <circle id="Oval" fill="#755A5A" cx="197.5" cy="180.5" r="96.5"></circle>
+                <text id="Wallet-Provider-Logo" font-family="Helvetica" font-size="24" font-weight="normal" fill="#000000">
+                    <tspan x="119" y="180">Wallet-Provider</tspan>
+                    <tspan x="119" y="209">Logo</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

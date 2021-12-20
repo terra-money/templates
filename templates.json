@@ -5,7 +5,7 @@
       "id": "smart-contract:basic",
       "title": "Smart contract basic",
       "images": [
-        "smart-contract/image.svg"
+        "smart-contract/cosmwasm-react.svg"
       ],
       "github": "https://github.com/iamssen/terra-smart-contract-basic",
       "categories": [
@@ -20,9 +20,7 @@
       "id": "wallet-provider:create-react-app",
       "title": "Wallet-Provider Create-React-App template",
       "images": [
-        "wallet-provider/image1.svg",
-        "wallet-provider/image2.svg",
-        "wallet-provider/image3.svg"
+        "wallet-provider/wallet-provider-react.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/create-react-app",
       "categories": [
@@ -36,9 +34,7 @@
       "id": "wallet-provider:next",
       "title": "Wallet-Provider Next.js template",
       "images": [
-        "wallet-provider/image1.svg",
-        "wallet-provider/image2.svg",
-        "wallet-provider/image3.svg"
+        "wallet-provider/wallet-provider-next.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/next",
       "categories": [
@@ -53,9 +49,7 @@
       "id": "wallet-provider:vite",
       "title": "Wallet-Provider Vite.js template",
       "images": [
-        "wallet-provider/image1.svg",
-        "wallet-provider/image2.svg",
-        "wallet-provider/image3.svg"
+        "wallet-provider/wallet-provider-vite.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vite",
       "categories": [
@@ -70,8 +64,7 @@
       "id": "wallet-provider:lit",
       "title": "Wallet-Controller Lit template",
       "images": [
-        "wallet-provider/image1.svg",
-        "wallet-provider/image2.svg"
+        "wallet-provider/wallet-provider-lit.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/lit",
       "categories": [
@@ -86,8 +79,7 @@
       "id": "wallet-provider:vue",
       "title": "Wallet-Controller Vue template",
       "images": [
-        "wallet-provider/image1.svg",
-        "wallet-provider/image2.svg"
+        "wallet-provider/wallet-provider-vue.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vue",
       "categories": [
@@ -102,8 +94,7 @@
       "id": "wallet-provider:svelte",
       "title": "Wallet-Controller Svelte template",
       "images": [
-        "wallet-provider/image1.svg",
-        "wallet-provider/image2.svg"
+        "wallet-provider/wallet-provider-svelte.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/svelte",
       "categories": [
