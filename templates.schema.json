@@ -37,6 +37,14 @@
           "minLength": 7,
           "maxLength": 50
         },
+        "symbols": {
+          "type": "array",
+          "description": "Please register the symbols suitable for explaining this template. You can refer to /symbols directory.",
+          "items": {
+            "type": "string",
+            "pattern": "(.*).svg$"
+          }
+        },
         "images": {
           "type": "array",
           "description": "Please register the image at 16/9. These are 640px/360px, 1280px/720px, 1920px/1080px.",
@@ -79,6 +87,7 @@
       "required": [
         "id",
         "title",
+        "symbols",
         "images",
         "github",
         "categories"

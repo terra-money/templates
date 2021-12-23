@@ -4,6 +4,10 @@
     {
       "id": "smart-contract:basic",
       "title": "Smart contract basic",
+      "symbols": [
+        "cosmwasm.svg",
+        "react.svg"
+      ],
       "images": [
         "smart-contract/cosmwasm-react.svg"
       ],
@@ -19,6 +23,10 @@
     {
       "id": "wallet-provider:create-react-app",
       "title": "Wallet-Provider Create-React-App template",
+      "symbols": [
+        "wallet-provider.svg",
+        "react.svg"
+      ],
       "images": [
         "wallet-provider/wallet-provider-react.svg"
       ],
@@ -33,6 +41,11 @@
     {
       "id": "wallet-provider:next",
       "title": "Wallet-Provider Next.js template",
+      "symbols": [
+        "wallet-provider.svg",
+        "react.svg",
+        "next.svg"
+      ],
       "images": [
         "wallet-provider/wallet-provider-next.svg"
       ],
@@ -48,6 +61,11 @@
     {
       "id": "wallet-provider:vite",
       "title": "Wallet-Provider Vite.js template",
+      "symbols": [
+        "wallet-provider.svg",
+        "react.svg",
+        "vite.svg"
+      ],
       "images": [
         "wallet-provider/wallet-provider-vite.svg"
       ],
@@ -63,6 +81,10 @@
     {
       "id": "wallet-provider:lit",
       "title": "Wallet-Controller Lit template",
+      "symbols": [
+        "wallet-provider.svg",
+        "lit.svg"
+      ],
       "images": [
         "wallet-provider/wallet-provider-lit.svg"
       ],
@@ -72,12 +94,18 @@
       ],
       "tags": [
         "lit-html",
-        "vite.js"
+        "vite.js",
+        "vite.svg"
       ]
     },
     {
       "id": "wallet-provider:vue",
       "title": "Wallet-Controller Vue template",
+      "symbols": [
+        "wallet-provider.svg",
+        "vue.svg",
+        "vite.svg"
+      ],
       "images": [
         "wallet-provider/wallet-provider-vue.svg"
       ],
@@ -93,6 +121,11 @@
     {
       "id": "wallet-provider:svelte",
       "title": "Wallet-Controller Svelte template",
+      "symbols": [
+        "wallet-provider.svg",
+        "svelte.svg",
+        "vite.svg"
+      ],
       "images": [
         "wallet-provider/wallet-provider-svelte.svg"
       ],
