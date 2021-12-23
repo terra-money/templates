@@ -8,9 +8,6 @@
         "cosmwasm.svg",
         "react.svg"
       ],
-      "images": [
-        "smart-contract/cosmwasm-react.svg"
-      ],
       "github": "https://github.com/iamssen/terra-smart-contract-basic",
       "categories": [
         "smart_contract",
@@ -27,9 +24,6 @@
         "wallet-provider.svg",
         "react.svg"
       ],
-      "images": [
-        "wallet-provider/wallet-provider-react.svg"
-      ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/create-react-app",
       "categories": [
         "web_app"
@@ -45,9 +39,6 @@
         "wallet-provider.svg",
         "react.svg",
         "next.svg"
-      ],
-      "images": [
-        "wallet-provider/wallet-provider-next.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/next",
       "categories": [
@@ -66,9 +57,6 @@
         "react.svg",
         "vite.svg"
       ],
-      "images": [
-        "wallet-provider/wallet-provider-vite.svg"
-      ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vite",
       "categories": [
         "web_app"
@@ -84,9 +72,6 @@
       "symbols": [
         "wallet-provider.svg",
         "lit.svg"
-      ],
-      "images": [
-        "wallet-provider/wallet-provider-lit.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/lit",
       "categories": [
@@ -105,9 +90,6 @@
         "vue.svg",
         "vite.svg"
       ],
-      "images": [
-        "wallet-provider/wallet-provider-vue.svg"
-      ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/vue",
       "categories": [
         "web_app"
@@ -124,9 +106,6 @@
         "wallet-provider.svg",
         "svelte.svg",
         "vite.svg"
-      ],
-      "images": [
-        "wallet-provider/wallet-provider-svelte.svg"
       ],
       "github": "https://github.com/terra-money/wallet-provider/tree/main/templates/svelte",
       "categories": [

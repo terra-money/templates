@@ -45,15 +45,6 @@
             "pattern": "(.*).svg$"
           }
         },
-        "images": {
-          "type": "array",
-          "description": "Please register the image at 16/9. These are 640px/360px, 1280px/720px, 1920px/1080px.",
-          "items": {
-            "type": "string",
-            "pattern": "(.*).(png|jpg|jpeg|webp|avif|svg)$",
-            "description": "Please write the image url based on the images directory of this `terra-money/templates` repository. For example, add a file `images/template-id/image.png`, and enter `images: [template-id/image.png]`."
-          }
-        },
         "github": {
           "type": "string",
           "pattern": "^https://github.com/(.*$)"
@@ -88,7 +79,6 @@
         "id",
         "title",
         "symbols",
-        "images",
         "github",
         "categories"
       ]
