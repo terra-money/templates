@@ -8,7 +8,7 @@
         "cosmwasm.svg",
         "react.svg"
       ],
-      "github": "https://github.com/iamssen/terra-smart-contract-basic",
+      "github": "https://github.com/terra-money/smart-contract-webapp-template",
       "categories": [
         "smart_contract",
         "web_app"
